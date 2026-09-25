@@ -40,4 +40,4 @@ A multi-page web project built with HTML, CSS, and JavaScript, with dedicated se
 ## Connect
 
 - GitHub: [@Ibrahim2709-raaz](https://github.com/Ibrahim2709-raaz)
-- Email: [ibrahim.salman2700@gmail.com](mailto:ibrahim.salman2700@gmail.com)
+- Portfolio: [ibrahim2709-raaz.github.io/portfolio-website](https://ibrahim2709-raaz.github.io/portfolio-website/)
