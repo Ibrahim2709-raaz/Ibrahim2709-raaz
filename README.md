@@ -26,11 +26,21 @@ A responsive multi-page website for Kamloops Volleyball Association programs, ga
 
 A responsive personal portfolio presenting my projects, skills, and software-development journey.
 
+## Collaborative projects
+
+### [MD3Methodology — Touch Target Size Experiment](https://github.com/mrtonguelicker/MD3Methodology)
+
+Originally developed this Android and Java usability experiment to measure how touch-target size affects completion time and misclick rates. The project was later extended collaboratively with additional functionality, interface improvements, and experiment tracking.
+
+### [MedReminder](https://github.com/mrtonguelicker/MedReminder)
+
+Contributed refill reminders, emergency-contact medication sharing, barcode-based medication entry, and medication-management functionality to this team-built Android application.
+
 ## Toolkit
 
-**Languages:** Python, JavaScript, HTML, CSS  
+**Languages:** Python, JavaScript, Java, HTML, CSS  
 **Research and ML:** PyTorch, NetworkX, NumPy, pandas, SciPy  
-**Engineering:** Git, GitHub Actions, requirements engineering, testing, documentation  
+**Engineering:** Git, GitHub Actions, Android Studio, requirements engineering, testing, documentation  
 **Currently learning:** Full-stack development, applied AI, cybersecurity fundamentals
 
 ## How I work
