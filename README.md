@@ -33,9 +33,11 @@ Reproducibility code and experiment outputs for a submitted research manuscript 
 
 **Tech:** Python, PyTorch, NetworkX, NumPy, pandas, SciPy
 
-### [Retail Resale Management System](https://github.com/Ibrahim2709-raaz/retail-resale-management-system) — design phase
+### [Retail Resale Management System](https://github.com/Ibrahim2709-raaz/retail-resale-management-system) — implementation phase
 
-A requirements-driven system for a real clothing resale business. Completed work includes requirements engineering, use cases, domain modeling, and process modeling; implementation has not yet begun.
+A full-stack platform for a real clothing resale business. Requirements engineering, system modeling, database design, architecture, API and frontend design, security design, and the implementation plan are complete. Implementation is now underway, beginning with the project foundation, application scaffolding, PostgreSQL integration, authentication, and user management.
+
+**Planned stack:** React, TypeScript, FastAPI, Pydantic, SQLAlchemy, Alembic, PostgreSQL, Docker Compose
 
 ## More work
 
