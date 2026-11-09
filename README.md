@@ -46,6 +46,13 @@ A full-stack platform for a real clothing resale business. Requirements engineer
 - [MD3Methodology](https://github.com/mrtonguelicker/MD3Methodology) — Android/Java usability experiment on touch-target size, completion time, and misclicks
 - [MedReminder](https://github.com/mrtonguelicker/MedReminder) — team-built Android app; contributed refill reminders, emergency-contact sharing, barcode entry, and medication-management features
 
+- ## Open-source contributions
+
+- [Flisk](https://github.com/flisk-sh/flisk) — added automated Vitest coverage for the Vanilla TypeScript + Vite frontend provider. [Merged PR #3472](https://github.com/flisk-sh/flisk/pull/3472)
+- First-time Flisk contributor · 8 kyu on Test Atoll
+
+[![FLISK HALL OF FAME @Ibrahim2709-raaz • 1 merged PR](https://img.shields.io/badge/FLISK%20HALL%20OF%20FAME-%40Ibrahim2709_raaz%20%E2%80%A2%201%20merged%20PR-06b6d4?style=for-the-badge&labelColor=07080f)](https://github.com/flisk-sh/flisk/issues/1799)
+
 ## Technical toolkit
 
 - **Languages:** Python, Java, JavaScript, HTML, CSS
