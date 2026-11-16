@@ -1,10 +1,32 @@
 # Hi, I'm Ibrahim Salman 👋
 
-Computer Science student building backend, applied AI, and full-stack projects. I enjoy turning ambiguous problems into documented, testable software, and I’m currently looking for software engineering internship opportunities.
+Computer Science student building backend systems, applied AI, research software, and interactive full-stack applications. I enjoy turning ambiguous problems into documented, testable software, and I’m currently looking for software engineering internship opportunities.
 
 [LinkedIn](https://www.linkedin.com/in/ibrahim-salman2700/) · [Portfolio](https://ibrahim2709-raaz.github.io/portfolio-website/) · [GitHub](https://github.com/Ibrahim2709-raaz)
 
 ## Featured projects
+
+### [Mars Rover Guardian](https://github.com/Ibrahim2709-raaz/mars-walk-guardian) — NASA Space Apps Challenge
+
+A completed four-view Mars exploration and rover-mission planning application combining planetary visualization, terrain-aware routing, and interactive mission replay.
+
+- Built an interactive 3D Mars globe and first-person surface explorer with the ArcGIS Maps SDK
+- Implemented a FastAPI weighted A* routing service over a measured HiRISE terrain crop in Gale Crater
+- Added a 2D tactical traverse planner and 3D rover replay with simulated hazards and telemetry
+- Documented the boundary between measured terrain data, derived values, and simulated mission assumptions
+- Deployed the [live frontend](https://ibrahim2709-raaz.github.io/mars-walk-guardian/) on GitHub Pages and the routing API on Render
+
+**Tech:** TypeScript, React, Vite, ArcGIS Maps SDK, Three.js, React Three Fiber, Python, FastAPI, Pydantic, GitHub Actions
+
+### [GNN–RL Disaster-Aware Healthcare WSN Routing](https://github.com/Ibrahim2709-raaz/gnn-rl-disaster-routing)
+
+Reproducibility code and experiment outputs for a submitted research manuscript on resilient routing in simulated healthcare wireless sensor networks.
+
+- Compared shortest-path, energy-aware, LSTM, reinforcement-learning, and GNN–RL routing approaches
+- Preserved experiment scripts, fixed-seed comparisons, tests, and reference CSV results
+- Clearly documents simulation limits and avoids presenting the work as clinical validation
+
+**Tech:** Python, PyTorch, NetworkX, NumPy, pandas, SciPy
 
 ### [LLM Gateway](https://github.com/Ibrahim2709-raaz/llm-gateway) — in active development
 
@@ -17,25 +39,9 @@ A multi-provider API gateway designed to route LLM requests by cost, latency, av
 
 **Tech:** Python, FastAPI, Pydantic, PostgreSQL, Redis, SQLAlchemy, Alembic, Docker, pytest
 
-### [SmartVision](https://github.com/Ibrahim2709-raaz/smartvision) — early-stage
-
-A real-time visual-assistant project exploring OpenCV, Hugging Face object detection, and offline speech. The repository currently documents the project direction; implementation is still in progress.
-
-**Planned tech:** Python, OpenCV, Hugging Face, offline text-to-speech
-
-### [GNN–RL Disaster-Aware Healthcare WSN Routing](https://github.com/Ibrahim2709-raaz/gnn-rl-disaster-routing)
-
-Reproducibility code and experiment outputs for a submitted research manuscript on resilient routing in simulated healthcare wireless sensor networks.
-
-- Compared shortest-path, energy-aware, LSTM, reinforcement-learning, and GNN–RL routing approaches
-- Preserved experiment scripts, fixed-seed comparisons, tests, and reference CSV results
-- Clearly documents simulation limits and avoids presenting the work as clinical validation
-
-**Tech:** Python, PyTorch, NetworkX, NumPy, pandas, SciPy
-
 ### [Retail Resale Management System](https://github.com/Ibrahim2709-raaz/retail-resale-management-system) — implementation phase
 
-A full-stack platform for a real clothing resale business. Requirements engineering, system modeling, database design, architecture, API and frontend design, security design, and the implementation plan are complete. Implementation is now underway, beginning with the project foundation, application scaffolding, PostgreSQL integration, authentication, and user management.
+A full-stack platform for a real clothing resale business. Requirements engineering, system modeling, database design, architecture, API and frontend design, security design, and the implementation plan are complete. Implementation is underway with application scaffolding, PostgreSQL integration, authentication, and user management.
 
 **Planned stack:** React, TypeScript, FastAPI, Pydantic, SQLAlchemy, Alembic, PostgreSQL, Docker Compose
 
@@ -46,7 +52,7 @@ A full-stack platform for a real clothing resale business. Requirements engineer
 - [MD3Methodology](https://github.com/mrtonguelicker/MD3Methodology) — Android/Java usability experiment on touch-target size, completion time, and misclicks
 - [MedReminder](https://github.com/mrtonguelicker/MedReminder) — team-built Android app; contributed refill reminders, emergency-contact sharing, barcode entry, and medication-management features
 
-- ## Open-source contributions
+## Open-source contributions
 
 - [Flisk](https://github.com/flisk-sh/flisk) — added automated Vitest coverage for the Vanilla TypeScript + Vite frontend provider. [Merged PR #3472](https://github.com/flisk-sh/flisk/pull/3472)
 - First-time Flisk contributor · 8 kyu on Test Atoll
@@ -55,8 +61,9 @@ A full-stack platform for a real clothing resale business. Requirements engineer
 
 ## Technical toolkit
 
-- **Languages:** Python, Java, JavaScript, HTML, CSS
-- **Backend and data:** FastAPI, PostgreSQL, Redis, SQLAlchemy
+- **Languages:** Python, TypeScript, Java, JavaScript, HTML, CSS
+- **Frontend and geospatial:** React, Vite, ArcGIS Maps SDK, Three.js, React Three Fiber, MapLibre GL
+- **Backend and data:** FastAPI, Pydantic, PostgreSQL, Redis, SQLAlchemy
 - **AI and research:** PyTorch, NetworkX, OpenCV, Hugging Face, NumPy, pandas, SciPy
 - **Engineering:** Git, GitHub Actions, Docker, pytest, Android Studio, requirements engineering, technical documentation
 
