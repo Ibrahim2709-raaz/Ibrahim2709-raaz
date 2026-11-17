@@ -6,15 +6,16 @@ Computer Science student building backend systems, applied AI, research software
 
 ## Featured projects
 
-### [Mars Rover Guardian](https://github.com/Ibrahim2709-raaz/mars-walk-guardian) — NASA Space Apps Challenge
+### [Mars Rover Guardian](https://github.com/Ibrahim2709-raaz/mars-walk-guardian) — Team Lead, NASA Space Apps Challenge
 
-A completed four-view Mars exploration and rover-mission planning application combining planetary visualization, terrain-aware routing, and interactive mission replay.
+A team-built, four-view Mars exploration and rover-mission planning application combining planetary visualization, terrain-aware routing, and interactive mission replay.
 
-- Built an interactive 3D Mars globe and first-person surface explorer with the ArcGIS Maps SDK
-- Implemented a FastAPI weighted A* routing service over a measured HiRISE terrain crop in Gale Crater
-- Added a 2D tactical traverse planner and 3D rover replay with simulated hazards and telemetry
-- Documented the boundary between measured terrain data, derived values, and simulated mission assumptions
-- Deployed the [live frontend](https://ibrahim2709-raaz.github.io/mars-walk-guardian/) on GitHub Pages and the routing API on Render
+- Served as team lead for the project
+- Designed the terrain-aware routing algorithm and developed the 3D integration
+- Collaborated with teammates responsible for data refinement and frontend implementation
+- Helped integrate the routing, terrain, and visualization components into the completed demonstration
+- Clearly distinguished measured terrain data, derived values, and simulated mission assumptions
+- Deployed as a [live application](https://ibrahim2709-raaz.github.io/mars-walk-guardian/) using GitHub Pages and Render
 
 **Tech:** TypeScript, React, Vite, ArcGIS Maps SDK, Three.js, React Three Fiber, Python, FastAPI, Pydantic, GitHub Actions
 
