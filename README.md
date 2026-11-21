@@ -29,16 +29,17 @@ Reproducibility code and experiment outputs for a submitted research manuscript 
 
 **Tech:** Python, PyTorch, NetworkX, NumPy, pandas, SciPy
 
-### [LLM Gateway](https://github.com/Ibrahim2709-raaz/llm-gateway) — in active development
+### [LLM Gateway](https://github.com/Ibrahim2709-raaz/llm-gateway) — V3 MVP complete · ongoing development
 
-A multi-provider API gateway designed to route LLM requests by cost, latency, availability, and task complexity.
+A production-oriented, multi-provider LLM gateway with intelligent model routing, customer isolation, cost controls, observability, and a self-service organization portal.
 
-- Built a FastAPI foundation with an OpenAI-compatible chat-completions API and a deterministic mock provider
-- Added PostgreSQL and Redis infrastructure, Alembic migrations, and dependency-aware health checks
-- Defined the MVP scope, architecture, API contract, and OpenAPI specification before implementation
-- Next milestone: integrate the first real LLM provider behind the provider interface
+- Integrated OpenAI, Anthropic, local OpenAI-compatible, and deterministic mock providers
+- Implemented task-aware routing infrastructure with evaluation evidence, shadow mode, controlled canaries, retries, fallback, and circuit breaking
+- Completed a secure customer-portal MVP with organization roles, API keys, service accounts, usage budgets, routing controls, a governed playground, and immutable audit history
+- Added PostgreSQL, Redis, Prometheus, Grafana, Docker, migrations, security hardening, and coverage-enforced CI
+- Continuing to improve production readiness, intelligent-routing validation, streaming, SDK support, and deployment
 
-**Tech:** Python, FastAPI, Pydantic, PostgreSQL, Redis, SQLAlchemy, Alembic, Docker, pytest
+**Tech:** Python, FastAPI, Pydantic, PostgreSQL, Redis, SQLAlchemy, Alembic, Docker, Prometheus, Grafana, pytest
 
 ### [Retail Resale Management System](https://github.com/Ibrahim2709-raaz/retail-resale-management-system) — implementation phase
 
