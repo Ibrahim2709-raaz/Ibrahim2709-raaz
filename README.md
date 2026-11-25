@@ -6,6 +6,18 @@ Computer Science student building backend systems, applied AI, research software
 
 ## Featured projects
 
+### [SCENAR](https://github.com/Ibrahim2709-raaz/scenar) — Hackathon Winner · Technical Lead
+
+A team-built Android emergency-reporting application that turns spoken or typed incident descriptions into structured, user-verified reports for a simulated responder workflow.
+
+- Served as technical lead, defining the architecture, shared incident contracts, milestone plan, and integration workflow
+- Built and integrated the OpenAI incident-structuring pipeline, JSON parsing and validation, secure backend boundary, and deterministic offline fallback
+- Led the product-wide UI redesign and developed the branded home experience, encrypted emergency-profile storage, and privacy-safe BLE rescue-beacon prototype
+- Coordinated cross-feature integration, pull-request reviews, regression testing, and release preparation
+- Designed explicit safety and consent boundaries so unknown information remains unknown, users verify AI output, and authority dispatch remains clearly simulated
+
+**Tech:** Java, Android, XML, Material 3, OpenAI API, Bluetooth Low Energy, GitHub Actions
+
 ### [Mars Rover Guardian](https://github.com/Ibrahim2709-raaz/mars-walk-guardian) — Team Lead, NASA Space Apps Challenge
 
 A team-built, four-view Mars exploration and rover-mission planning application combining planetary visualization, terrain-aware routing, and interactive mission replay.
@@ -65,6 +77,7 @@ A full-stack platform for a real clothing resale business. Requirements engineer
 
 - **Languages:** Python, TypeScript, Java, JavaScript, HTML, CSS
 - **Frontend and geospatial:** React, Vite, ArcGIS Maps SDK, Three.js, React Three Fiber, MapLibre GL
+- **Mobile:** Android, Material 3, Bluetooth Low Energy
 - **Backend and data:** FastAPI, Pydantic, PostgreSQL, Redis, SQLAlchemy
 - **AI and research:** PyTorch, NetworkX, OpenCV, Hugging Face, NumPy, pandas, SciPy
 - **Engineering:** Git, GitHub Actions, Docker, pytest, Android Studio, requirements engineering, technical documentation
